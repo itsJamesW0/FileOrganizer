@@ -43,6 +43,7 @@ def organize_files(path):
         except Exception as e:
             print(f"Failed to move {file_name}: {e}")
 
-organize_files("/Users/jameswilliams/Downloads")
+# Please enter the path of the directory you want to organize (e.g., /Users/YourUsername/Downloads):
+organize_files("/Users/YourUsername/Downloads")
 
 
